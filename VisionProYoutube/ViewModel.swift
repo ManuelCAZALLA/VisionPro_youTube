@@ -22,7 +22,7 @@ class ViewModel {
     func getVideos() {
         Task {
             do {
-                let apiKey = "AIzaSyBH5D_s8zlR268hIyHNejQqm8C3g1qYm6U"
+                let apiKey = "You apiKey"
                 let searchQuery = "Dani Martin videoclips"
                 
                 guard let url = URL(string: "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=\(searchQuery)&key=\(apiKey)")

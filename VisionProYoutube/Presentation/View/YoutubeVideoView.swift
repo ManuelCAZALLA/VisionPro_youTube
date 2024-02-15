@@ -21,9 +21,6 @@ struct YouTubeVideo: UIViewRepresentable {
     func updateUIView(_ uiView: WKWebView, context: Context) {
         let youtubeURLString = "https://www.youtube.com/watch?v=\(videoId)"
 
-        
-        print(youtubeURLString)
-        
         guard let youtubeURL = URL(string: youtubeURLString) else {
             print("Error: La URL de YouTube no es válida")
             return

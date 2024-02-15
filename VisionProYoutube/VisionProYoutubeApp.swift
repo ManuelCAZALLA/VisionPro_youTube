@@ -11,7 +11,7 @@ import SwiftUI
 struct VisionProYoutubeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VisionProView()
         }
     }
 }

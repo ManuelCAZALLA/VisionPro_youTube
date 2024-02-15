@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  VisionProView.swift
 //  VisionProYoutube
 //
 //  Created by Manuel Cazalla Colmenero on 14/2/24.
@@ -9,7 +9,7 @@ import SwiftUI
 import RealityKit
 import RealityKitContent
 
-struct ContentView: View {
+struct VisionProView: View {
     @State var viewModel = ViewModel()
     
     var body: some View {
@@ -45,5 +45,5 @@ struct ContentView: View {
 
 
 #Preview(windowStyle: .automatic) {
-    ContentView()
+    VisionProView()
 }
